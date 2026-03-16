@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background: #f9fafb;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #f3f4f6;
+    color: #000600;
+    box-shadow: 0 0 20px rgb(0 0 0 /0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+nav .logo h5{
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 100px;
+}
+nav ul li{
+    list-style: none;
+    font-size: 15px;
+    color: #737783;
+}
+
+nav ul li:hover{
+    color: #000;
+    transform: translateY(-3px);
+    transition: 0.5s ease-in-out;
+}
+
+/* hero */
+.hero{
+    padding: 20px 50px;
+    background: #f9fafb;
+}
+.hero .hero-flex{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    max-width: 1200px;
+    width: 100%;
+}
+.hero .hero-flex .hero-text{
+    max-width: 100%;
+}
+.hero .hero-flex .hero-text h1{
+    font-size: 3.5rem;
+    margin-bottom: 2%;
+    /* color: rgb(red, green, blue) linear-gradient(90deg, #1E3A8A, #3B82F6); */
+}
+.hero .hero-flex .hero-text h4{
+    font-size: 2.3rem;
+    margin-bottom: 2%;
+}
+.hero .hero-flex .hero-text p{
+    font-size: 15px;
+    margin-bottom: 30px;
+    max-width: 700px;
+    line-height: 1.5;
+}
+.hero .hero-flex .hero-text .btn-primary{
+    background: #000;
+    color: #fff;
+    font-size: 17px;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background 0.3s ease;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.hero .hero-flex .hero-text .btn-primary:hover{
+    background: #000;
+    transform: translateY(-5px);
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 20px rgb(0 0 0 /0.5);
+}
+.hero .hero-flex .hero-text .btn-secondary{
+    background: #fff;
+    color: #000600;
+    padding: 10px 25px;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1.5px solid #000;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+}
+.hero .hero-flex .hero-text .btn-secondary:hover{
+    background: #000;
+    color: #fff;
+    transform: translateY(-5px);
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 20px rgb(0 0 0 /0.5);
+}
+.hero .hero-flex .hero-img img{
+    width: 100%;
+    float: right;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(0 0 0 /0.5);
+}
+.hero .hero-flex .hero-img img:hover{
+    transform: scale(1.02);
+    transition: 0.7s ease-in-out;
+}
+
+.hero .All{
+    margin: 10% 0;
+}
+.hero .All .Mindset{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.hero .All .Mindset h5{
+    font-size: 2rem;
+}
+.hero .All .mindset-flex{
+    display: flex;
+    gap: 40px;
+}
+.hero .All .mindset-flex .mindset-text{
+    max-width: 650px;
+}
+.hero .All .mindset-flex .mindset-text p{
+    font-size: 17px;
+    color: #737783;
+    line-height: 1.5;
+}
+.hero .All .mindset-flex .mindset-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.hero .All .mindset-flex .mindset-grid .cards{
+    margin-bottom: 2%;
+}
+.hero .All .mindset-flex .mindset-grid .cards h5{
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 1.5%;
+}
+.hero .All .mindset-flex .mindset-grid .cards p{
+    font-size: 15px;
+    color: #737783;
+}
+.hero .All .mindset-flex .mindset-grid .cards:hover{
+    background: #f6f5f6;
+    padding: 1% 2%;
+    box-shadow: 0 0 20px rgb(0 0 0 /0.5);
+    transform: translateY(-3px);
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+.hero .All .mindset-flex .mindset-grid .cards h5:hover{
+    transform: translateX(-4px);
+    transition: 0.5s ease-in-out;
+    color: #737783;
+}
+/* hero */
