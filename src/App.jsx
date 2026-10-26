@@ -1,14 +1,27 @@
-import React from 'react'
-import Navbar from '../src/Component/Navbar'
+import Navbar from './Component/Navbar'
 import './App.css'
-import Hero from '../src/Pages/hero'
+import About from './Pages/About'
+import Contact from './Pages/contact'
+import Dashboard from './Pages/dashboard'
+import Hero from './Pages/hero'
 
-const App = () => {
+function App() {
   return (
-    <div>
+    <>
       <Navbar />
       <Hero />
-    </div>
+      <main>
+        <About />
+        <Dashboard />
+        <Contact />
+      </main>
+      <footer className="site-footer">
+        <div className="page-shell footer-inner">
+          <p>© {new Date().getFullYear()} Daniel Oluwasegun. Built with care.</p>
+          <a className="footer-top" href="#home">Back to top ↑</a>
+        </div>
+      </footer>
+    </>
   )
 }
 

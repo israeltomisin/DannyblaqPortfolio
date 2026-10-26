@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" fill="none">
+  <rect width="720" height="360" rx="24" fill="#E8F0E4"/>
+  <rect x="30" y="28" width="660" height="304" rx="17" fill="#fff"/>
+  <circle cx="54" cy="52" r="5" fill="#AFC49F"/>
+  <circle cx="72" cy="52" r="5" fill="#D9E4D1"/>
+  <circle cx="90" cy="52" r="5" fill="#D9E4D1"/>
+  <rect x="44" y="77" width="632" height="1" fill="#EDF0ED"/>
+  <text x="50" y="108" fill="#26372D" font-family="Arial, sans-serif" font-size="16" font-weight="700">SALES PERFORMANCE</text>
+  <text x="50" y="128" fill="#87928A" font-family="Arial, sans-serif" font-size="10">Illustrative dashboard preview</text>
+  <rect x="50" y="148" width="184" height="58" rx="9" fill="#F5F8F3"/>
+  <rect x="248" y="148" width="184" height="58" rx="9" fill="#F5F8F3"/>
+  <rect x="446" y="148" width="214" height="58" rx="9" fill="#F5F8F3"/>
+  <text x="65" y="170" fill="#87928A" font-family="Arial, sans-serif" font-size="10">Revenue trend</text>
+  <text x="65" y="191" fill="#28634F" font-family="Arial, sans-serif" font-size="17" font-weight="700">By month</text>
+  <text x="263" y="170" fill="#87928A" font-family="Arial, sans-serif" font-size="10">Product mix</text>
+  <text x="263" y="191" fill="#28634F" font-family="Arial, sans-serif" font-size="17" font-weight="700">By category</text>
+  <text x="461" y="170" fill="#87928A" font-family="Arial, sans-serif" font-size="10">Regional view</text>
+  <text x="461" y="191" fill="#28634F" font-family="Arial, sans-serif" font-size="17" font-weight="700">Compare markets</text>
+  <path d="M62 246H650M62 275H650M62 304H650" stroke="#EDF0ED" stroke-dasharray="3 5"/>
+  <path d="M70 291C122 278 142 285 186 257S253 271 300 247s65 22 112-5 65-42 113-25 68-23 117-45" stroke="#28634F" stroke-linecap="round" stroke-width="5"/>
+  <circle cx="642" cy="172" r="5" fill="#28634F"/>
+</svg>

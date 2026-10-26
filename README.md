@@ -1,16 +1,25 @@
-# React + Vite
+# Daniel Oluwasegun — Data Analyst Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Run locally
 
-Currently, two official plugins are available:
+```sh
+npm install
+npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Contact form setup
 
-## React Compiler
+The contact form uses [Web3Forms](https://web3forms.com/) to deliver submissions. Copy `.env.example` to `.env.local`, then replace the placeholder with your Web3Forms access key:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```env
+VITE_WEB3FORMS_ACCESS_KEY=your-web3forms-access-key
+```
 
-## Expanding the ESLint configuration
+Restart the Vite dev server after changing environment variables. Add the same variable to your hosting provider's environment settings when deploying. The `.env.local` file is git-ignored.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Checks
+
+```sh
+npm run lint
+npm run build
+```
